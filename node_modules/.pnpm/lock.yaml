@@ -1,0 +1,31 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      nodejs:
+        specifier: ^0.0.0
+        version: 0.0.0
+      php:
+        specifier: ^1.1.0
+        version: 1.1.0
+
+packages:
+
+  nodejs@0.0.0:
+    resolution: {integrity: sha512-1V+0HwaB/dhxzidEFc4uJ3k52gLI4B6YBZgJIofjwYCSAkD6CI0me6TDBT2QM2nbGWNxCHcq9/wVynzQYZOhUg==}
+
+  php@1.1.0:
+    resolution: {integrity: sha512-IUIOrFBooOyTP3SD9zZZ0cX2UwL5fQj3cmuaXGcc1gsSbMdHseNcEmpwXoh+b0G+hv5LfBL0nBggEOS2YRk7sQ==}
+    engines: {node: '>=18.0.0'}
+
+snapshots:
+
+  nodejs@0.0.0: {}
+
+  php@1.1.0: {}
